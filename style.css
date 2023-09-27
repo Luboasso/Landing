@@ -1,0 +1,397 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+
+body {
+    background: rgb(255, 244, 180);
+    background: radial-gradient(circle, rgba(255, 244, 180, 1) 0%, rgba(255, 197, 228, 1) 48%, rgba(255, 180, 153, 1) 100%);
+    font-size: 16px; 
+   
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 5%; 
+    background-color: rgba(255, 208, 228, 0.351);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin-left: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px; 
+    font-weight: 500;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 36px; 
+    font-weight: 600;
+    color: white;
+    text-shadow: -2px -1px rgb(255, 178, 174);
+}
+
+
+.intro p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+}
+
+.bio_text{
+    display: grid;
+    text-shadow: 0px -2px 12px rgb(255, 178, 174)
+ }
+
+.web_dev {
+    max-width: 200px;
+    margin-bottom: 20px;
+    justify-self: center;
+    border-radius: 20%;
+    background-color: rgb(255 255 255);
+    padding: 4px;
+    }
+
+/* skills */
+audio {
+    width: 180px;
+    
+}
+
+.nav_bar {
+    justify-content: space-evenly;
+}
+    .skills_text1 {
+        text-shadow: 0px -2px 12px rgb(255, 178, 174);
+
+    }
+    .skills_text1 h4 {
+        padding-bottom: 70px;
+        text-align: center;
+    }
+
+    .skills_text1 p {
+        max-width: 80px;
+        background-color: rgb(255, 178, 174);
+        text-align: center;
+        padding: 6px;
+        border-radius: 10%;
+    }
+    
+   .skills-p {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .html-gif, .cat {
+        max-width: 170px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        justify-self: center;
+        border-radius: 20%;
+        background-color: rgb(255 255 255);
+        padding: 4px;
+        }
+
+        .cat {
+            max-width: 130px;
+        }
+
+
+    
+/* form */
+    .form_sec {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 0px -2px 12px rgb(255, 178, 174)
+    }
+    
+    .form_sec h1{
+        font-size: 20px;
+        padding: 60px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: white;
+        text-shadow: 0px -2px 12px rgb(255, 178, 174);
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid rgba(255, 197, 228, 1);
+        border-radius: 10px;
+        background-color: #ffffffa5;
+        color: rgb(255, 180, 220);
+        
+    }
+
+    
+    button[type="submit"] {
+        background-color: rgb(251 131 195);
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    
+
+/* Tablet */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+
+    nav {
+        padding: 20px 8%;
+    }
+
+    nav ul li {
+        margin-left: 40px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+    .intro h1 {
+        font-size: 55px;
+        text-shadow: -4px -3px rgb(255, 178, 174);
+    }
+
+    .intro p {
+        font-size: 25px;
+    }
+    
+    .bio_text{
+        display: grid;
+        text-shadow: 0px -2px 12px rgb(255, 178, 174)
+     }
+
+    .web_dev {
+        max-width: 400px;
+        margin-bottom: 30px;
+        justify-self: center;
+        border-radius: 20%;
+        background-color: rgb(255 255 255);
+        padding: 8px;
+        }
+
+        .skills_text1 p {
+            max-width: 100px;
+            background-color: rgb(255, 178, 174);
+            text-align: center;
+            padding: 10px;
+            border-radius: 10%;
+        }
+
+        .skills_text1 h4 {
+            padding-bottom: 50px; 
+            font-size: 40px; 
+        }
+
+        .form_sec {
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            text-shadow: 0px -2px 12px rgb(255, 178, 174);
+        }
+
+        .form_sec h1 {
+            font-size: 30px;
+            text-shadow: 0px -2px 12px rgb(255, 178, 174);
+            padding: 100px;
+        }
+    
+        form {
+            max-width: 120%; 
+        }
+
+        button[type="submit"] {
+            font-size: 20px; 
+        }
+
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+
+    nav {
+        padding: 20px 10%;
+    }
+
+    nav ul li {
+        margin-left: 60px;
+    }
+
+    nav ul li a {
+        font-size: 24px;
+    }
+
+    .intro h1 {
+        /* font-size: 60px;
+        text-shadow: -6px -5px rgb(255, 178, 174); */
+        font-size: 1100%;
+    font-weight: 600;
+    color: white;
+    text-shadow: -4px -3px rgb(255, 178, 174);
+    }
+
+    .intro p{
+        font-size: 50px;
+    line-height: 1.8;
+    color: white;
+    }
+
+    .bio_text h4, h5{
+        font-size: 40px;
+    line-height: 1.8;
+    color: white;
+    
+    /* text-shadow: -4px -3px rgb(255, 178, 174); */
+     }
+
+     .bio_text{
+        display: grid;
+        text-shadow: 0px -2px 12px rgb(255, 178, 174)
+     }
+     
+     .web_dev {
+        max-width: 600px;
+        margin-bottom: 50px;
+        justify-self: center;
+        border-radius: 20%;
+        background-color: rgb(255 255 255);
+    padding: 12px;
+        }
+
+        .form_sec {
+            padding: 20px; 
+        }
+    
+        .form_sec h1 {
+            font-size: 70px; 
+        }
+    
+        form {
+            max-width: 100%; 
+            font-size: 40px;
+        }
+    
+        .form-group {
+            margin-bottom: 20px;
+        }
+    
+        label {
+            margin-bottom: 10px; 
+        }
+    
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            font-size: 30px; 
+        }
+    
+        button[type="submit"] {
+            font-size: 40px; 
+        }
+
+        .skills_text1 {
+            text-shadow: 0px -2px 12px rgb(255, 178, 174);
+        }
+        
+       
+        .skills_text1 p {
+            max-width: 400px;
+            font-size: 50px;
+            padding: 15px;
+        }
+        
+        .skills-p {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .html-gif, .cat {
+            max-width: 300px;
+            margin: 100px 10px;
+            justify-self: center;
+            border-radius: 20%;
+            background-color: rgb(255 255 255);
+            padding: 10px;
+        }
+        
+            .skills_text1 h4 {
+                padding-bottom: 70px; 
+                font-size: 60px; 
+            }
+        
+        
+            .html-gif, .cat {
+                max-width: 650px;; 
+            }
+        
+}
